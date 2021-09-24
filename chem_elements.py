@@ -1,0 +1,43 @@
+my_dict ={}
+class Element:
+	def __init__(self, symb, name, num, mw):
+		self.symb = symb
+		self.name = name
+		self.num = num
+		self.mw = mw
+		my_dict[symb] = self
+
+H = Element("H", "Hydrogen", 1, 1.01)
+He = Element("He", "Helium", 2, 4.00)
+Li = Element("Li", "Lithium", 3, 6.94)
+Be = Element("Be", "Beryllium", 4, 9.01)
+B = Element("B", "Boron", 5, 10.81)
+C = Element("C", "Carbon", 6, 12.01)
+N = Element("N", "Nitrogen", 7, 14.01)
+O = Element("O", "Oxygen", 8, 16.00)
+F = Element("F","Fluorine", 9, 19.00)
+Ne = Element("Ne", "Neon", 10, 20.18)
+Na = Element("Na", "Sodium", 11, 22.99)
+Mg = Element("Mg", "Magnesium", 12, 24.31)
+Al = Element("Al", "Aluminum", 13, 26.98)
+Si = Element("Si", "Silicon", 14, 28.09)
+P = Element("P", "Phosphorus", 15, 28.09)
+S = Element("S", "Sulfur", 16, 30.97)
+Cl = Element("Cl", "Chlorine", 17, 32.07)
+Ar = Element("Ar", "Argon", 18, 35.45)
+K = Element("K", "Potassium", 19, 39.10)
+Ca = Element("Ca", "Calcium", 20, 40.08)
+Sc = Element("Sc", "Scandium", 21, 44.96)
+Ti = Element("Ti", "Titanium", 22, 47.88)
+V = Element("V", "Vanadium", 23, 50.94)
+Cr = Element("Cr", "Chromium", 24, 52.00)
+Mn = Element("Mn", "Manganese", 25, 54.94)
+Fe = Element("Fe", "Iron", 26, 55.85)
+Co = Element("Co", "Cobalt", 27, 63.55)
+Zn = Element("Zn", "Zinc", 28, 65.39)
+Ga = Element("Ga", "Gallium", 29, 69.72)
+Ge = Element("Ge", "Germanium", 30, 72.61)
+As = Element("As", "Arsenic", 31, 74.92)
+Se = Element("Se", "Selenium", 32, 78.96)
+Br = Element("Br", "Bromine", 33, 79.90)
+Kr = Element("Kr", "Krypton", 34, 83.80)

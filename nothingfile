@@ -1,0 +1,27 @@
+my_dict ={}
+class Element:
+	def __init__(self, symb, name, num, mw):
+		self.symb = symb
+		self.name = name
+		self.num = num
+		self.mw = mw
+		my_dict[symb] = self
+
+H = Element("H", "Hydrogen", 1, 1.01)
+He = Element("He", "Helium", 2, 4.00)
+Li = Element("Li", "Lithium", 3, 6.94)
+Be = Element("Be", "Beryllium", 4, 9.01)
+B = Element("B", "Boron", 5, 10.81)
+C = Element("C", "Carbon", 6, 12.01)
+N = Element("N", "Nitrogen", 7, 14.01)
+O = Element("O", "Oxygen", 8, 16.00)
+F = Element("F","Fluorine", 9, 19.00)
+Ne = Element("Ne", "Neon", 10, 20.18)
+Na = Element("Na", "Sodium", 11, 22.99)
+Mg = Element("Mg", "Magnesium", 12, 24.31)
+Al = Element("Al", "Aluminum", 13, 26.98)
+Si = Element("Si", "Silicon", 14, 28.09)
+P = Element("P", "Phosphorus", 15, 28.09)
+S = Element("S", "Sulfur", 16, 30.97)
+Cl = Element("Cl", "Chlorine", 17, 32.07)
+Ar = Element("Ar", "Argon", 18, 35.45)
